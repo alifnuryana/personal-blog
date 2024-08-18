@@ -7,7 +7,6 @@ import turnstile from 'astro-turnstile'
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'hybrid',
   site: 'https://alifnuryana.my.id/',
   server: {
     port: 1977,
