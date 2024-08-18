@@ -4,7 +4,7 @@ export const siteConfig = {
   subtitle: 'Software Engineer and Lifelong Learner.',
   description: 'A personal space where I share insights, experiences, and projects from my journey as a software engineer. Dive into blogs, notes, talks, and hands-on projects that reflect my passion for coding, problem-solving, and continuous learning.',
   image: {
-    src: '/hero.jpg',
+    src: '/AlifNuryana.jpeg',
     alt: 'Website Main Image',
   },
   email: 'alifnuryana0@gmail.com',
@@ -12,30 +12,24 @@ export const siteConfig = {
     {
       text: 'GitHub',
       href: 'https://github.com/alifnuryana',
-      icon: 'i-tabler-brand-github',
-      header: 'i-tabler-brand-github',
+      icon: 'i-simple-icons-github',
+      header: 'i-simple-icons-github',
     },
     {
       text: 'Twitter',
-      href: 'https://x.com/alifn27',
-      icon: 'i-tabler-brand-x',
-      header: 'i-tabler-brand-x',
+      href: 'https://www.threads.net/@syntaxsavvy_',
+      icon: 'i-simple-icons-x',
+      header: 'i-simple-icons-x',
     },
     {
       text: 'Linkedin',
       href: 'https://www.linkedin.com/in/alifn27/',
-      icon: 'i-tabler-brand-linkedin',
+      icon: 'i-simple-icons-linkedin',
     },
     {
       text: 'Instagram',
       href: 'https://www.instagram.com/syntaxsavvy',
-      icon: 'i-tabler-brand-instagram',
-    },
-    {
-      text: 'Thread',
-      href: 'https://www.threads.net/@syntaxsavvy_',
-      icon: 'i-tabler-brand-threads',
-      header: 'i-tabler-brand-threads',
+      icon: 'i-simple-icons-instagram',
     },
   ],
   header: {
