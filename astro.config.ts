@@ -3,7 +3,6 @@ import mdx from '@astrojs/mdx'
 import sitemap from '@astrojs/sitemap'
 import UnoCSS from 'unocss/astro'
 import vue from '@astrojs/vue'
-import turnstile from 'astro-turnstile'
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,9 +12,7 @@ export default defineConfig({
   },
   integrations: [mdx(), sitemap(), UnoCSS({
     injectReset: true,
-  }), vue(), turnstile({
-    siteKey: '0x4AAAAAAAhhSyGB5ENmU4PZ',
-  })],
+  }), vue()],
   markdown: {
     shikiConfig: {
       themes: {
