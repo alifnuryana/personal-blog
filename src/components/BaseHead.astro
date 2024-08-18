@@ -24,7 +24,10 @@ const resolvedImage = image?.src
       src: new URL(image.src, Astro.site).toString(),
       alt: image.alt,
     }
-  : undefined
+  : {
+      src: new URL('/AlifNuryana.jpeg', Astro.site).toString(),
+      alt: 'Alif Nuryana',
+    }
 
 const canonicalURL = new URL(Astro.request.url, Astro.site)
 

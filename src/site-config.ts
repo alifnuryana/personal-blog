@@ -4,8 +4,8 @@ export const siteConfig = {
   subtitle: 'Software Engineer and Lifelong Learner.',
   description: 'A personal space where I share insights, experiences, and projects from my journey as a software engineer. Dive into blogs, notes, talks, and hands-on projects that reflect my passion for coding, problem-solving, and continuous learning.',
   image: {
-    src: '/MainImage.png',
-    alt: 'Website Main Image',
+    src: '/AlifNuryana.jpeg',
+    alt: 'Alif Nuryana',
   },
   email: 'alifnuryana0@gmail.com',
   socialLinks: [
