@@ -1,40 +1,41 @@
 export const siteConfig = {
-  author: 'Kevin Wong',
-  title: 'Vitesse theme for Astro',
-  subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
-  description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
+  author: 'Alif Nuryana',
+  title: 'Alif Nuryana',
+  subtitle: 'Software Engineer and Lifelong Learner.',
+  description: 'A personal space where I share insights, experiences, and projects from my journey as a software engineer. Dive into blogs, notes, talks, and hands-on projects that reflect my passion for coding, problem-solving, and continuous learning.',
   image: {
     src: '/hero.jpg',
     alt: 'Website Main Image',
   },
-  email: 'kevinwong865@gmail.com',
+  email: 'alifnuryana0@gmail.com',
   socialLinks: [
     {
       text: 'GitHub',
-      href: '',
-      icon: 'i-simple-icons-github',
-      header: 'i-ri-github-line',
+      href: 'https://github.com/alifnuryana',
+      icon: 'i-tabler-brand-github',
+      header: 'i-tabler-brand-github',
     },
     {
       text: 'Twitter',
-      href: '',
-      icon: 'i-simple-icons-x',
-      header: 'i-ri-twitter-x-line',
+      href: 'https://x.com/alifn27',
+      icon: 'i-tabler-brand-x',
+      header: 'i-tabler-brand-x',
     },
     {
       text: 'Linkedin',
-      href: '',
-      icon: 'i-simple-icons-linkedin',
+      href: 'https://www.linkedin.com/in/alifn27/',
+      icon: 'i-tabler-brand-linkedin',
     },
     {
       text: 'Instagram',
-      href: '',
-      icon: 'i-simple-icons-instagram',
+      href: 'https://www.instagram.com/syntaxsavvy',
+      icon: 'i-tabler-brand-instagram',
     },
     {
-      text: 'Youtube',
-      href: '',
-      icon: 'i-simple-icons-youtube',
+      text: 'Thread',
+      href: 'https://www.threads.net/@syntaxsavvy_',
+      icon: 'i-tabler-brand-threads',
+      header: 'i-tabler-brand-threads',
     },
   ],
   header: {
@@ -79,22 +80,7 @@ export const siteConfig = {
   },
   footer: {
     navLinks: [
-      {
-        text: 'Posts Props',
-        href: '/posts-props',
-      },
-      {
-        text: 'Markdown Style',
-        href: '/md-style',
-      },
-      {
-        text: 'View on Astro',
-        href: 'https://astro.build/themes/details/vitesse-theme-for-astro/',
-      },
-      {
-        text: 'GitHub Repository',
-        href: 'https://github.com/kevinwong865/astro-theme-vitesse',
-      },
+      //
     ],
   },
 }

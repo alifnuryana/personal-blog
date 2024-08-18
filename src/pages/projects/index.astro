@@ -8,7 +8,7 @@ import ListProjects from '@/components/ListProjects.vue'
   <h1 class="mb-10 text-title">Projects</h1>
   <div mb-16 sm:mb-24>
     {
-      projectData.length > 0 && (
+      projectData.length > 0 ? (
         <div>
           {projectData.map((i) => (
             <div mb-10>
@@ -21,6 +21,8 @@ import ListProjects from '@/components/ListProjects.vue'
             </div>
           ))}
         </div>
+      ) : (
+        <div class="my-12 opacity-50">nothing here yet.</div>
       )
     }
   </div>
